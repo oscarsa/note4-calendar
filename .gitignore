@@ -1,0 +1,7 @@
+out/
+out-real/
+site/
+__pycache__/
+.page_dir
+.device_token
+.DS_Store
