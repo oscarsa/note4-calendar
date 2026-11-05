@@ -2,8 +2,9 @@ name: Update Note4 calendar
 
 on:
   schedule:
-    # Every hour at :05 from 05 to 21 UTC (06-22 in winter, 07-23 in summer in Spain).
-    - cron: "5 5-21 * * *"
+    # Every 20 min from 05 to 21 UTC (06-22 in winter, 07-23 in summer in Spain).
+    # GitHub delays or skips scheduled runs, so ask often.
+    - cron: "*/20 5-21 * * *"
   workflow_dispatch:
 
 permissions:

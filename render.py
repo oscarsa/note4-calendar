@@ -279,7 +279,7 @@ def render(now, events, weather, city):
     return img
 
 
-def page_bytes(img, now_utc, expires_hours=14):
+def page_bytes(img, now_utc, expires_hours=26):
     raw = img.tobytes()                     # mode "1": MSB-first, 1 = white, rows of 50 bytes
     assert len(raw) == 15000
     issued = int(now_utc)

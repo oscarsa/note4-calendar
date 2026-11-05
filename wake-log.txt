@@ -1,0 +1,10 @@
+sleep sent 2026-11-05 18:04:41.224615
+--- port up 2026-11-05 18:04:41.227128
+I (83300) NimBLE: GAP procedure initiated: stop advertising.
+
+I (83300) NimBLE: GAP procedure initiated: stop advertising.
+
+I (83300) terminal: event=sleep_cover_start 
+I (84870) terminal: event=shutdown_start 
+I (84870) terminal: event=sleep_cover_presented style=0 portrait=0 result=ESP_OK wake_after_us=3363000000
+--- port gone 2026-11-05 18:04:43.087915 (SerialException)
